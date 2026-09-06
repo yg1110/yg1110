@@ -37,8 +37,6 @@
 
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=Go&logoColor=white"> <img src="https://img.shields.io/badge/Wails-DF0000?style=flat-square&logo=Go&logoColor=white"> <img src="https://img.shields.io/badge/WPF%20%2F%20C%23-512BD4?style=flat-square&logo=C+Sharp&logoColor=white">
 
-> 사이드 프로젝트에서 사용 — <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=Supabase&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white">
-
 ## 📝 자주 읽히는 글
 
 - [디스크가 꽉 차서 멈춘 검사 장비, 삭제를 없애기까지 — 대용량 테이블 파티셔닝 삽질기](https://velog.io/@yg1110)
