@@ -12,12 +12,15 @@
 
 ## 📌 최근 1년
 
+> 각 항목은 그 작업을 정리한 글로 이어집니다.
+
 | | |
 | --- | --- |
-| 🗃️ **700GB / 12개 테이블** | 무중단 RANGE 파티셔닝 전환 — 공장 가동 중단 0분, 정리 작업 수동 10~30분 → 스케줄러 자동 |
-| 🐌 **3억 2,804만 행** | 장비 기동을 막던 87초 `COUNT(*)` 추적·제거 → 배포 없이 설정 변경만으로 당일 양산 재개 |
-| ✅ **E2E 40개** | CI가 없던 프론트엔드에 도입 — 푸시마다 고객사 5곳을 9분 43초에 검증 |
-| 📦 **150MB → 10.9MB** | Electron 래퍼를 Go/Wails로 재작성 (93% 감소, 단일 exe) |
+| 🗃️ **700GB / 12개 테이블** | 무중단 RANGE 파티셔닝 전환 — 공장 가동 중단 0분, 정리 작업 수동 10~30분 → 스케줄러 자동 · [글](https://velog.io/@yg1110/%EB%94%94%EC%8A%A4%ED%81%AC%EA%B0%80-%EA%BD%89-%EC%B0%A8%EC%84%9C-%EB%A9%88%EC%B6%98-%EA%B2%80%EC%82%AC-%EC%9E%A5%EB%B9%84-%EC%82%AD%EC%A0%9C%EB%A5%BC-%EC%97%86%EC%95%A0%EA%B8%B0%EA%B9%8C%EC%A7%80-%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%85%8C%EC%9D%B4%EB%B8%94-%ED%8C%8C%ED%8B%B0%EC%85%94%EB%8B%9D-%EC%82%BD%EC%A7%88%EA%B8%B0) |
+| 🐌 **3억 2,804만 행** | 장비 기동을 막던 87초 `COUNT(*)` 추적·제거 → 배포 없이 설정 변경만으로 당일 양산 재개 · [글](https://velog.io/@yg1110/%EB%A1%9C%EA%B7%B8-%ED%95%9C-%EC%A4%84-%EC%B0%8D%EC%9E%90%EA%B3%A0-3%EC%96%B5-%EA%B1%B4%EC%9D%84-%EC%84%B8%EA%B3%A0-%EC%9E%88%EC%97%88%EB%8B%A4-%ED%8C%8C%ED%8B%B0%EC%85%94%EB%8B%9D-%EB%B0%B0%ED%8F%AC-%EB%91%90-%EB%8B%AC-%EB%92%A4%EC%9D%98-%EC%B2%AD%EA%B5%AC%EC%84%9C) |
+| 🧯 **112,835건** | 스토리지 용량 사고로 밀린 건 복구 — 검사 결과 전 구간, 이미지 68,990건 · [글](https://velog.io/@yg1110/%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EA%B0%80-%EC%B0%AC-%EB%92%A4-%EB%82%A8%EC%9D%80-11%EB%A7%8C-%EA%B1%B4-%EC%96%B4%EB%94%94%EA%B9%8C%EC%A7%80-%EB%B3%B5%EA%B5%AC%ED%95%A0-%EC%88%98-%EC%9E%88%EC%97%88%EB%82%98) |
+| ✅ **E2E 40개** | CI가 없던 프론트엔드에 도입 — 푸시마다 고객사 5곳을 9분 43초에 검증 · [글](https://velog.io/@yg1110/%EB%81%9D%EA%B9%8C%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9D%B8-%EB%B0%B0%ED%8F%AC%EC%97%90-%EA%B2%80%EC%A6%9D-%ED%95%9C-%EC%B9%B8-%EB%84%A3%EA%B8%B0-%EB%AA%A9%EC%9D%84-%EC%93%B0%EC%A7%80-%EC%95%8A%EB%8A%94-E2E) |
+| 📦 **150MB → 10.9MB** | Electron 래퍼를 Go/Wails로 재작성 (93% 감소, 단일 exe) · [글](https://velog.io/@yg1110/%EC%9B%B9-%ED%99%94%EB%A9%B4-%ED%95%98%EB%82%98-%EB%9D%84%EC%9A%B0%EC%9E%90%EA%B3%A0-150MB%EB%A5%BC-%EA%B9%94%EA%B3%A0-%EC%9E%88%EC%97%88%EB%8B%A4-Electron-%EB%9E%98%ED%8D%BC%EB%A5%BC-Go%EB%A1%9C-%EA%B0%88%EC%95%84%EC%97%8E%EA%B8%B0) |
 
 ## 🛠 Tech Stack
 
@@ -36,13 +39,6 @@
 ### 🧪 Etc
 
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=Go&logoColor=white"> <img src="https://img.shields.io/badge/Wails-DF0000?style=flat-square&logo=Go&logoColor=white"> <img src="https://img.shields.io/badge/WPF%20%2F%20C%23-512BD4?style=flat-square&logo=C+Sharp&logoColor=white">
-
-## 📝 자주 읽히는 글
-
-- [디스크가 꽉 차서 멈춘 검사 장비, 삭제를 없애기까지 — 대용량 테이블 파티셔닝 삽질기](https://velog.io/@yg1110)
-- [파티션 정리가 부팅을 막았다 — 로그 한 줄을 위한 COUNT(\*) 3억 건](https://velog.io/@yg1110)
-- [연결은 살아있는데 데이터가 안 온다 — 새로고침해야만 복구되던 SSE 고치기](https://velog.io/@yg1110)
-- [끝까지 자동인 배포에 검증 한 칸 넣기 — 목을 쓰지 않는 E2E](https://velog.io/@yg1110)
 
 ## 🔗 Links
 
